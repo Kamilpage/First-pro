@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: var(--bg-main);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 970px;
+    padding: 0 10px;
+}
+
+h1,
+p {
+    margin: 0;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 34px;
+    color: var(--color-main-black);
+}
