@@ -1,4 +1,6 @@
-@import url('../basic.css');
-@import url(../variables.css);
-@import url(../header.css);
-@import url(../home.css);
+@import url(basic.css);
+@import url(variables.css);
+@import url(header.css);
+@import url(home.css);
+@import url(about.css);
+@import url(normalize.css);

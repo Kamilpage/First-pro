@@ -1,0 +1,21 @@
+.about {
+    background-color: #F6F6F6;
+    padding: 56px 0;
+}
+
+.about__inner {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 18px;
+}
+
+.about__inner h2 {
+    margin-bottom: 42px;
+}
+
+.about__inner hr {
+    max-width: 420px;
+    width: 100%;
+}
