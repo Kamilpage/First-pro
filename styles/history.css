@@ -1,4 +1,4 @@
-.history-section {
+<<<<<<< HEAD .history-section {
 
     padding: 64px 0 70px;
 
@@ -33,4 +33,42 @@
         height: 480px;
         object-fit: cover;
     }
-}
+
+    =======.history-section {
+
+        padding: 64px 0 70px;
+
+    }
+
+    .history-title {
+        font-size: 34px;
+        font-weight: 700;
+        color: var(--color-main-black);
+        text-align: center;
+
+    }
+
+    .history-photo {
+
+        width: 100%;
+        max-width: 950px;
+        height: 655px;
+        object-fit: cover;
+    }
+
+    .history-description {
+        text-align: center;
+        font-size: 18px;
+        margin-top: 30px;
+
+    }
+
+    @media (max-width: 480px) {
+        .history-photo {
+            font-size: 14px;
+            height: 480px;
+            object-fit: cover;
+        }
+
+        >>>>>>>3fe535818ab8102f62fa0d1f8117327546623a0a
+    }
