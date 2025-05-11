@@ -394,3 +394,26 @@ template {
 .w-100 {
   width: 100%;
 }
+
+.btn-transparent {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.d-block {
+  display: block !important;
+}
+.btn-default-focus {
+  transition: .3s all;
+}
+.btn-default-focus:hover {
+  color: #090909;
+}
+
+@media only screen and (max-width: 720px) {
+  .md-none {
+    display: none;
+  }
+}

@@ -17,7 +17,7 @@
 <body>
     <header class="header" aria-label="header">
         <div class="container">
-            <nav class="nav" aria-label="navigation">
+            <nav class="nav md-none" aria-label="navigation">
                 <ul class="nav-list" aria-label="header nav list">
                     <li>
                         <a href="#home-id" class="nav-link" aria-label="link-to-home">Home</a>
@@ -36,46 +36,51 @@
                     </li>
                 </ul>
             </nav>
+            <div class="nav__mobile">
+                <div class="nav__mobile-burger" onclick="toggleSidebar()">
+                    <div class="burger-line"></div>
+                    <div class="burger-line"></div>
+                    <div class="burger-line"></div>
+                </div>
+                <div class="nav__mobile-sidebar">
+                    <div class="sidebar__header">
+                        <button class="btn-transparent btn-default-focus" onclick="closeSidebar()">
+                            <img src="/images/ic-cross.svg" alt="" width="23">
+                        </button>
+                    </div>
+                    <div class="sidebar__items">
+                        <ul>
+                            <li>
+                                <a href="#" onclick="closeSidebar()">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#about-id" onclick="closeSidebar()">
+                                    About
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#history-id" onclick="closeSidebar()">
+                                    History 
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#portfolio-id" onclick="closeSidebar()">
+                                    Portfolio
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" onclick="closeSidebar()">
+                                    Contacts
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
-    <div class="mobile-navigation" aria-label="mobile-navigation">
-        <label for="toggler-id">
-
-            <svg class="mobile-navigation-burger">
-                <use href="./Burger.svg"> </use>
-
-            </svg>
-
-        </label>
-        <input type="checkbox" id="toggler-id" class="mobile-navigation-toggler">
-        <nav class="mobile-navigation-nav" aria-label="navigation">
-            <ul class="mobile-navigation-list" aria-label="header nav list">
-                <li>
-                    <a href="#home-id" class="mobile-navigation-link" aria-label="link-to-home">Home</a>
-                </li>
-                <li>
-                    <a href="#about-id" class="mobile-navigation-link" aria-label="About">About</a>
-                </li>
-                <li>
-                    <a href="#history-id" class="mobile-navigation-link" aria-label="History">History</a>
-                </li>
-                <li>
-                    <a href="#portfolio-id" class="mobile-navigation-link" aria-label="Portfolio">Portfolio</a>
-                </li>
-                <li>
-                    <a href="#footer-id" class="mobile-navigation-link" aria-label="Contacts">Contacts</a>
-                </li>
-            </ul>
-            <label for="toggler-id">
-
-                <svg class="mobile-navigation-cross">
-                    <use href="./Burger.svg"> </use>
-
-                </svg>
-
-            </label>
-        </nav>
-    </div>
     <section class="home mb-70" aria-label="home section" id="home-id">
         <div class="container">
             <h1 class="home-title" aria-label="title">Ivan Constantinovich Aivazovski
@@ -188,6 +193,7 @@
                     </div>
                 </div>
     </footer>
-</body>
 
+    <script defer src="./js/index.js"></script>
+</body>
 </html>
