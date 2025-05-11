@@ -1,0 +1,30 @@
+.mobile-navigation {
+    display: none;
+}
+
+.mobile-navigation-burger {}
+
+.mobile-navigation-toggler {
+    display: none;
+}
+
+.mobile-navigation-nav {
+    visibility: hidden;
+}
+
+.mobile-navigation-toggler:checked+.mobile-navigation-nav {
+    visibility: visible;
+
+}
+
+.mobile-navigation-list {}
+
+.mobile-navigation-link {}
+
+.mobile-navigation-cross {}
+
+@media (max-width: 480px) {
+    .mobile-navigation {
+        display: block;
+    }
+}

@@ -34,3 +34,8 @@ h2 {
     font-size: 34px;
     color: var(--color-main-black);
 }
+
+html {
+
+    scroll-behavior: smooth;
+}
